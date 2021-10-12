@@ -83,8 +83,8 @@
                 </button>
 
                 <div class="dropdown-menu dropdown-menu-right mt-3">
-                    <a class="dropdown-item" href="Pages.Product.images.html">Account</a>
-                    <a class="dropdown-item" href="Pages.Auth.Login.html">Sign out</a>
+                    <a class="dropdown-item" href="Pages.Product.images.html">Akun</a>
+                    <a class="dropdown-item" href="utama.html">Keluar</a>
                 </div>
             </div>
         </div>
@@ -94,14 +94,14 @@
             <div class="scroll">
                 <ul class="list-unstyled">
                     <li>
-                        <a href="#dashboard">
+                        <a href="Dashboard.Default.html">
                             <i class="iconsminds-student-hat"></i>
-                            <span>Dashboards</span>
+                            <span>Beranda</span>
                         </a>
                     </li>
                     <li class="active">
                         <a href="#layouts">
-                            <i class="iconsminds-book"></i> Pages
+                            <i class="iconsminds-book"></i> Halaman
                         </a>
                     </li>
                 </ul>
@@ -110,40 +110,13 @@
 
         <div class="sub-menu">
             <div class="scroll">
-                <ul class="list-unstyled" data-link="dashboard">
-                    <li>
-                        <a href="Dashboard.Default.html">
-                            <i class="simple-icon-home"></i> <span class="d-inline-block">Home</span>
-                        </a>
-                    </li>
-                </ul>
+                
                 <ul class="list-unstyled" data-link="layouts" id="layouts">
-                    <li>
-                        <a href="#" data-toggle="collapse" data-target="#collapseAuthorization" aria-expanded="true"
-                            aria-controls="collapseAuthorization" class="rotate-arrow-icon opacity-50">
-                            <i class="simple-icon-arrow-down"></i> <span class="d-inline-block">Authorization</span>
-                        </a>
-                        <div id="collapseAuthorization" class="collapse show">
-                            <ul class="list-unstyled inner-level-menu">
-                                <li>
-                                    <a href="Pages.Auth.Login.html">
-                                        <i class="simple-icon-user-following"></i> <span
-                                            class="d-inline-block">Login</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="Pages.Auth.Register.html">
-                                        <i class="simple-icon-user-follow"></i> <span
-                                            class="d-inline-block">Register</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
+                    
                     <li>
                         <a href="#" data-toggle="collapse" data-target="#collapseProduct" aria-expanded="true"
                             aria-controls="collapseProduct" class="rotate-arrow-icon opacity-50">
-                            <i class="simple-icon-arrow-down"></i> <span class="d-inline-block">Product</span>
+                            <i class="simple-icon-arrow-down"></i> <span class="d-inline-block">Data</span>
                         </a>
                         <div id="collapseProduct" class="collapse show">
                             <ul class="list-unstyled inner-level-menu">
@@ -523,25 +496,22 @@
                                     <input type="text" class="form-control" id="inp-type-2" >
                                 </div>
                             </div>
-                            <div class="col-lg-4 ol-xs-12">
-                     <div class="box-content card black">
-                        <label class="box-title">Status</label>
-                            <div class="card-content">
-                        <div class="form-group margin-bottom-20">
-                            <select class="form-control">
-                                <option value=""></option>
-                                <option value="1">Belum Lunas</option>
-                                <option value="2">Lunas</option>
-                            </select>
-                        </div>
-                        </form>
-                    </div>
+                            <div class="form-group">
+                                <label for="inp-type-2" class="col-sm-3 control-label">Status</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control">
+                                        <option value=""></option>
+                                        <option value="1">Belum Lunas</option>
+                                        <option value="2">Lunas</option>
+                                    </select>
+                                </div>
+                            </div>         
 
-                    <div class="text-zero top-right-button-container">
+                            <div class="text-zero top-left-button-container">
                             <button type="button" class="btn btn-primary btn-lg top-right-button mr-1">Submit</button>
-                    </div>
+                            </div>
                      
-                </div>
+                        </form>
             </div>
         </div>
     </main>
