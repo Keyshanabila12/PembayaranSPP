@@ -153,63 +153,6 @@
                 
                         </div>
                     </li>
-                    <li>
-                        <a href="#" data-toggle="collapse" data-target="#collapseMenuLevel" aria-expanded="true"
-                            aria-controls="collapseMenuLevel" class="rotate-arrow-icon collapsed">
-                            <i class="simple-icon-arrow-down"></i> <span class="d-inline-block">Menu Levels</span>
-                        </a>
-                        <div id="collapseMenuLevel" class="collapse" data-parent="#menuTypes">
-                            <ul class="list-unstyled inner-level-menu">
-                                <li>
-                                    <a href="#">
-                                        <i class="simple-icon-layers"></i> <span class="d-inline-block">Sub
-                                            Level</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" data-toggle="collapse" data-target="#collapseMenuLevel2"
-                                        aria-expanded="true" aria-controls="collapseMenuLevel2"
-                                        class="rotate-arrow-icon collapsed">
-                                        <i class="simple-icon-arrow-down"></i> <span class="d-inline-block">Another
-                                            Level</span>
-                                    </a>
-                                    <div id="collapseMenuLevel2" class="collapse">
-                                        <ul class="list-unstyled inner-level-menu">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="simple-icon-layers"></i> <span class="d-inline-block">Sub
-                                                        Level</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#" data-toggle="collapse" data-target="#collapseMenuDetached" aria-expanded="true"
-                            aria-controls="collapseMenuDetached" class="rotate-arrow-icon collapsed">
-                            <i class="simple-icon-arrow-down"></i> <span class="d-inline-block">Detached</span>
-                        </a>
-                        <div id="collapseMenuDetached" class="collapse">
-                            <ul class="list-unstyled inner-level-menu">
-                                <li>
-                                    <a href="#">
-                                        <i class="simple-icon-layers"></i> <span class="d-inline-block">Sub
-                                            Level</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dont-close-menu">
-                            <a href="#">
-                                <i class="simple-icon-arrow-right"></i> <span class="d-inline-block">Keep Sub Open</span>
-                            </a>
-                        </div>
-                    </li>
                 </ul>
 
             </div>
@@ -237,7 +180,7 @@
                                             <div class="card-body text-center">
                                                 <i class="iconsminds-user"></i>
                                                 <p class="card-text mb-0">Jumlah Siswa</p>
-                                                <p class="lead text-center">1000</p>
+                                                <p class="lead text-center">64</p>
                                             </div>
                                         </a>
                                     </li>
@@ -246,7 +189,7 @@
                                             <div class="card-body text-center">
                                                 <i class="iconsminds-mail-open"></i>
                                                 <p class="card-text mb-0">Belum Lunas</p>
-                                                <p class="lead text-center">140</p>
+                                                <p class="lead text-center">25</p>
                                             </div>
                                         </a>
                                     </li>
@@ -255,7 +198,7 @@
                                             <div class="card-body text-center">
                                                 <i class="iconsminds-mail-money"></i>
                                                 <p class="card-text mb-0">Sudah Lunas</p>
-                                                <p class="lead text-center">160</p>
+                                                <p class="lead text-center">39</p>
                                             </div>
                                         </a>
                                     </li>
@@ -273,6 +216,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="card h-70">
+                        <div class="card-body">
+                           <h6 class="mb-4">Grafik Pembayaran Bulanan</h6>
+                           <div class="chart-container chart">
+                           <canvas id="areaChart"></canvas>
+                           </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>          
 
     <script src="js/vendor/jquery-3.3.1.min.js"></script>
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
