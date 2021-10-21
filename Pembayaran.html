@@ -454,12 +454,10 @@
                 </div>
             </div>
 
-            <div class="row mb-4">
-                <div class="co10-lg-10 col-md-10 mb-10">
-                    <div class="card">
-                        <div class="card-body">
-                        
-                        <table class="table">
+            <div class="card mb-4">
+                <div class="card-body">
+
+                    <table class="table">
                         <center>
                         <h2><b>Cari NISN</b></h2>
                         <div class="search" data-search-path="Pages.Search.html?q=">
@@ -473,17 +471,13 @@
             
                         </center>
                         </table>
-                        
-                        </div>
-                    </div>
                 </div>
-    
             </div>
-            <div class="row mb-4">
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Informasi Siswa</h5>
+
+            <div class="card mb-4">
+                <div class="card-body">
+
+                    <h5 ><b>Informasi Siswa</b></h5>
                             <table class="table">
                             <thead>
                                                                     
@@ -508,13 +502,14 @@
     
                             </tbody>
                             </table>
-                        </div>
-                    </div>
                 </div>
-            <div class="col-lg-6 col-md-12 mb-4">
+            </div>
+            
+            <div class="row mb-4">
+                <div class="col-lg-6 col-md-12 mb-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Transaksi Terakhir</h5>
+                            <h5 ><b>Transaksi Terakhir</b></h5>
 
                             <table class="table">
                                 <thead class="thead-light">
@@ -526,7 +521,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">Pembayaran SPP-Juli 2020 s/d Oktober 2020</th>
+                                        <td scope="row">Pembayaran SPP-Juli 2020 s/d Oktober 2020</td>
                                         <td>Rp.100.000</td>
                                         <td>1 Juli 2021</td>
                                     </tr>
@@ -536,7 +531,33 @@
                     </div>
                 </div>
 
-        </div>
+            
+
+            
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5><b>Bayar</b></h5>
+
+                            <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-5">
+                                    <label for="inputTotal">Total</label>
+                                    <input type="total" class="form-control" id="inputTotal" >
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <label for="inputBulan">Bulan</label>
+                                    <input type="bulan" class="form-control" id="inputBulan">
+                                </div>
+                                <button type="submit" class="btn btn-primary d-block mt-5">Kirim</button>
+                            </div>
+                            
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
     </main>
     
     <script src="js/vendor/jquery-3.3.1.min.js"></script>
