@@ -264,15 +264,41 @@
                         </div>
                     </div>
 
-            <div class="row">
-                <div class="col-xl-6 col-lg-12 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Kalender</h5>
-                            <div class="calendar"></div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 mb-2">
+                            <div class="card h-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kalender</h5>
+                                    <div class="calendar"></div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="col-lg-6 mb-5">
+                            <div class="card h-70">
+                                <a href="#" class="card">
+                                <div class="card-body">
+                                   <h6 class="mb-4" >Grafik Pembayaran Bulanan</h6>
+                                   <div class="chart-container chart" >
+                                   <canvas id="areaChart"></canvas>
+                                   </div>
+                                </div>
+                                </a>
+                            </div>  
+                        </div>
+                        <div class="col-lg-6 mb-5">
+                            <div class="card h-70">
+                                <a href="#" class="card">
+                                <div class="card-body">
+                                   <h6 class="mb-4" >Grafik Pembayaran Tahunan</h6>
+                                   <div class="chart-container chart" >
+                                   <canvas id="areaChartNoShadow"></canvas>
+                                   </div>
+                                </div>
+                                </a>
+                            </div>  
+                        </div>
+                    
                     </div>
-                </div>
 
     <script src="js/vendor/jquery-3.3.1.min.js"></script>
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
