@@ -119,13 +119,13 @@
                     <li>
                         <div id="collapseProduct" class="collapse show">
                             <ul class="list-unstyled inner-level-menu">
-                                <li >
+                                <li class="active">
                                     <a href="Pages.Data.List.html">
                                         <i class="simple-icon-layers"></i> <span class="d-inline-block">Data
                                             Siswa</span>
                                     </a>
                                 </li>
-                                <li class="active">
+                                <li>
                                     <a href="Pages.Transaksi.html">
                                         <i class="simple-icon-wallet"></i> <span class="d-inline-block">Transaksi</span>
                                     </a>
@@ -160,29 +160,34 @@
             <div class="row">
                 <div class="col-12">
                     <div class="mb-2">
-                        <h1>Data Transaksi Siswa</h1>
-                        <div class="top-right-button-container" >
-                            <a  href="Form.New.Transaksi.html">
-                            <button class="btn btn-primary btn-lg top-right-button mr-1"type="button"> + TAMBAHKAN</button>
-                            </a>
+                        <h1>Rekap Tahunan</h1>
+                        
+                        
+                    </div>
+                    <div class="dropdown d-inline-block">
+                        <button class="btn btn-outline-primary dropdown-toggle mb-1" type="button"
+                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Tahun Ajaran
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">2018/2019</a>
+                            <a class="dropdown-item" href="Rekap.Tahunan.2020.html">2020/2021</a>
+                            
+                        </div>
+                        <button class="btn btn-outline-primary dropdown-toggle mb-1" type="button"
+                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Kelas
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="Rekap.Tahunan.Rpl1.html">XII RPL 1</a>
+                            <a class="dropdown-item" href="Rekap.Tahunan.Rpl2.html">XII RPL 2</a>
+                            
                         </div>
                         
                     </div>
 
-                    <div class="btn-group float-md-left mr-1 mb-1">
-                        <button class="btn btn-outline-dark btn-xs dropdown-toggle" type="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Kelas
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="Transaksi.Rpl1.html">XII RPL 1</a>
-                            <a class="dropdown-item" href="Transaksi.Rpl2.html">XII RPL 2</a>
-                        </div>
-                    </div>
-                    <div class="search-sm calendar-sm d-inline-block  mr-6 mb-3 align-top">
-                        <input class="form-control datepicker" placeholder="Cari tanggal">
-                    </div>
-                    
                     <div class="mb-2">
                         <a class="btn pt-0 pl-0 d-inline-block d-md-none" data-toggle="collapse" href="#displayOptions"
                             role="button" aria-expanded="true" aria-controls="displayOptions">
@@ -204,141 +209,119 @@
                 </div>
             </div>
 
-            <div class="col-lg-12 col-md-12 mb-4">
+            <div class="col-xl-12 col-md-12 mb-4">
                 <div class="card">
                     <div class="card-body">
+                        <h5 class="card-title">Tabel Rekap Data Siswa XII RPL 1 Tahun 2020/2021</h5>
+                        <div style="width:1080px;height:500px;overflow-y:scroll;overflow-x:hidden;">
+                            <p style="width:250%;"></p>
 
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
                                     <th scope="col">No</th>
                                     <th scope="col">Nama</th>
-                                    <th scope="col">NIS</th>
+                                    <th scope="col">NISN</th>
                                     <th scope="col">Kelas</th>
-                                    <th scope="col">Waktu Pembayaran</th>
-                                    <th scope="col">Bulan Bayar</th>
-                                    <th scope="col">Jumlah Bayar</th>
-                                    <th scope="col">Status</th>
+                                    <th scope="col">2020/2021</th>
                                     
 
                                     
                                 </tr>
                             </thead>
                             <tbody>
-                                
-                                
                                 <tr>
                                     <th scope="row">1</th>
-                                    <td>Mokhamad Tegas</td>
-                                    <td>4620</td>
-                                    <td>XII RPL 2</td>
-                                    <td>2-9-2020</td>
-                                    <td>Juli 2020 - Juni 2021</td>
-                                    <td>Rp.300.000,00</td>
-                                    <td><span style="color: green">Lunas</span></td>
+                                    <td>Aldo Renad S.P</td>
+                                    <td>5635</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.300.000</td>
                                     
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>Nailu Burhanil F.</td>
-                                    <td>4093</td>
-                                    <td>XII RPL 2</td>
-                                    <td>12-5-2021</td>
-                                    <td>Juli 2020 - Februari 2021</td>
-                                    <td>Rp.200.000,00</td>
-                                    <td><span style="color: red">Belum Lunas</span></td>
+                                    <td>Angela Dewi C.A</td>
+                                    <td>5661</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.200.000</td>
                                     
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td>Nova Wulansari</td>
-                                    <td>6798</td>
-                                    <td>XII RPL 2</td>
-                                    <td>22-7-2021</td>
-                                    <td>Juli 2020 - Desember 2020</td>
-                                    <td>Rp.150.000,00</td>
-                                    <td><span style="color: red">Belum Lunas</span></td>
+                                    <td>Anissa Alifia P.</td>
+                                    <td>5669</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.200.000</td>
                                     
                                 </tr>
                                 <tr>
                                     <th scope="row">4</th>
-                                    <td>Nungki Pratama A.</td>
-                                    <td>6004</td>
-                                    <td>XII RPL 2</td>
-                                    <td>4-8-2020</td>
-                                    <td>Juli 2020 - Juni 2021</td>
-                                    <td>Rp.300.000,00</td>
-                                    <td><span style="color: green">Lunas</span></td>
+                                    <td>Bagas Raynaldi S.</td>
+                                    <td>5696</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.300.000</td>
                                     
                                 </tr>
                                 <tr>
                                     <th scope="row">5</th>
-                                    <td>Popy Septy A.</td>
-                                    <td>6132</td>
-                                    <td>XII RPL 2</td>
-                                    <td>16-5-2021</td>
-                                    <td>Juli 2020 - Februari 2021</td>
-                                    <td>Rp.200.000,00</td>
-                                    <td><span style="color: red">Belum Lunas</span></td>
-                                    
+                                    <td>Deta Shakila N.</td>
+                                    <td>5727</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.150.000</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">6</th>
-                                    <td>Reza Aprillia A.</td>
-                                    <td>6245</td>
-                                    <td>XII RPL 2</td>
-                                    <td>29-5-2021</td>
-                                    <td>Juli 2020 - Juni 2021</td>
-                                    <td>Rp.300.000,00</td>
-                                    <td><span style="color: green">Lunas</span></td>
-                                    
+                                    <td>Dicky Risal F.</td>
+                                    <td>5746</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.100.000</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">7</th>
-                                    <td>Rico Tomboti</td>
-                                    <td>6345</td>
-                                    <td>XII RPL 2</td>
-                                    <td>4-5-2021</td>
-                                    <td>Juli 2020 - Juni 2021</td>
-                                    <td>Rp.300.000,00</td>
-                                    <td><span style="color: green">Lunas</span></td>
-                                    
+                                    <td>Dina Oktafia</td>
+                                    <td>5751</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.300.000</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">8</th>
-                                    <td>Risky Dewa S.</td>
-                                    <td>6187</td>
-                                    <td>XII RPL 2</td>
-                                    <td>7-5-2021</td>
-                                    <td>Juli 2020 - Juni 2021</td>
-                                    <td>Rp.300.000,00</td>
-                                    <td><span style="color: green">Lunas</span></td>
-                                    
+                                    <td>Dwi Andriyanto</td>
+                                    <td>5763</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.300.000</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">9</th>
-                                    <td>Riza Adjie W.</td>
-                                    <td>6229</td>
-                                    <td>XII RPL 2</td>
-                                    <td>15-7-2020</td>
-                                    <td>Juli 2020 - Oktober 2020</td>
-                                    <td>Rp.100.000,00</td>
-                                    <td><span style="color: red">Belum Lunas</span></td>
-                                    
+                                    <th scope="row">8</th>
+                                    <td>Dwi Andriyanto</td>
+                                    <td>5763</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.300.000</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">10</th>
-                                    <td>Sandra Lidya F.</td>
-                                    <td>6116</td>
-                                    <td>XII RPL 2</td>
-                                    <td>20-6-2021</td>
-                                    <td>Juli 2020 - Juni 2021</td>
-                                    <td>Rp.300.000,00</td>
-                                    <td><span style="color: green">Lunas</span></td>
-                                    
+                                    <td>Febriati Mayori</td>
+                                    <td>5805</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.100.000</td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td>Herlina Kharisma P.</td>
+                                    <td>5841</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.200.000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td>Keysha Nabila M.</td>
+                                    <td>5884</td>
+                                    <td>XII RPL 1</td>
+                                    <td>Rp.300.000</td>
+                                </tr>
+                                    
                             </tbody>
                         </table>
+                        </div>
                     </div>
                 </div>
             </div>

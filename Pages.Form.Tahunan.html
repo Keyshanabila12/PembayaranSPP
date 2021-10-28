@@ -17,7 +17,6 @@
 
     <link rel="shortcut icon" href="logo smk.ico" type="image/x-icon">
     <link rel="icon" href="logo smk.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body id="app-container" class="menu-default show-spinner">
@@ -44,7 +43,6 @@
                 </svg>
             </a>
 
-            
         </div>
 
         <a class="navbar-logo" href="Dashboard.Default.html">
@@ -112,17 +110,18 @@
                     <li>
                         <div id="collapseProduct" class="collapse show">
                             <ul class="list-unstyled inner-level-menu">
-                                <li>
+                                <li class="active">
                                     <a href="Pages.Data.List.html">
-                                        <i class="simple-icon-layers"></i> <span class="d-inline-block">Data Siswa</span>
+                                        <i class="simple-icon-layers"></i> <span class="d-inline-block">Data
+                                            Siswa</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li >
                                     <a href="Pages.Transaksi.html">
                                         <i class="simple-icon-wallet"></i> <span class="d-inline-block">Transaksi</span>
                                     </a>
                                 </li>
-                                <li class="active">
+                                <li>
                                     <a href="Pages.Profil.html">
                                         <i class="simple-icon-people"></i> <span class="d-inline-block">Profil</span>
                                     </a>
@@ -135,6 +134,11 @@
                             </ul>
                         </div>
                     </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
                 <ul class="list-unstyled" data-link="applications">
                     <li>
                         <a href="Apps.MediaLibrary.html">
@@ -430,117 +434,65 @@
         <div class="container-fluid disable-text-selection">
             <div class="row">
                 <div class="col-12">
-
                     <div class="mb-3">
-                        <h1>Profil</h1>
+                        <h1>Tambah Data Rekap Tahunan</h1>
+                        <nav class="breadcrumb-container d-none d-sm-block d-lg-inline-block" aria-label="breadcrumb">
+                            <ol class="breadcrumb pt-0">
+                            </ol>
+                        </nav>
+
                     </div>
 
-            <div class="bg-white shadow rounded-lg d-block d-sm-flex">
-                <div class="profile-tab-nav border-right">
-                    <div class="p-4">
-                        <div class="img-circle text-center mb-3">
-                            <img src="img/profiles/l-1.jpg" alt="Image" class="shadow">
-                            
-                        </div>
-                        <h4 class="text-center">Petugas</h4>
-                        <br>
-                        <input type="file" accept="image/*"/>
-                    </div>
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="account-tab" data-toggle="pill" href="#account" role="tab" aria-controls="account" aria-selected="true">
-                            <i class="fa fa-home text-center mr-1"></i> 
-                            Profil
-                        </a>
-                        <a class="nav-link" id="password-tab" data-toggle="pill" href="#password" role="tab" aria-controls="password" aria-selected="false">
-                            <i class="fa fa-key text-center mr-1"></i> 
-                            Password
+                    <div class="mb-2">
+                        <a class="btn pt-0 pl-0 d-inline-block d-md-none" data-toggle="collapse" href="#displayOptions"
+                            role="button" aria-expanded="true" aria-controls="displayOptions">
+                            Display Options
+                            <i class="simple-icon-arrow-down align-middle"></i>
                         </a>
                     </div>
-                </div>
-                <div class="tab-content p-4 p-md-5" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="account" role="tabpanel" aria-labelledby="account-tab">
-                        <h3 class="mb-4">Pengaturan Akun</h3>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Nama Depan</label>
-                                    <input type="text" class="form-control" value="Petugas">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Nama Belakang</label>
-                                    <input type="text" class="form-control" value="Pembayaran SPP">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input type="text" class="form-control" value="smkn12malang@gmail.com">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>No.Telepon</label>
-                                    <input type="text" class="form-control" value="0341400884">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Sekolah</label>
-                                    <input type="text" class="form-control" value="SMKN 12 Malang">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Status</label>
-                                    <input type="text" class="form-control" value="Petugas Pembayaran SPP">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Bio</label>
-                                    <textarea class="form-control" rows="4">Kami petugas pembayaran spp SMKN 12 Malang akan membantu siswa dan wali murid dalam pembayaran SPP</textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary">Update</button>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">
-                        <h3 class="mb-4">Pengaturan Password</h3>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Password Lama</label>
-                                    <input type="password" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Password Baru</label>
-                                    <input type="password" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Konfirmasi Password Baru</label>
-                                    <input type="password" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary">Update</button>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </section>
                     <div class="separator mb-5"></div>
                 </div>
+            </div>
+
+            <div class="card-content">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label for="inp-type-1" class="col-sm-3 control-label">Nama</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="inp-type-1" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inp-type-2" class="col-sm-3 control-label">Nis</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="inp-type-2" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inp-type-2" class="col-sm-3 control-label">Kelas</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="inp-type-2" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inp-type-2" class="col-sm-3 control-label">Password</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="inp-type-2" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inp-type-2" class="col-sm-3 control-label">Status</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="inp-type-2" >
+                                </div>
+
+                            <br>
+                            <br>
+                            <div class="text-zero top-left-button-container">
+                            <button type="button" class="btn btn-primary btn-lg top-right-button mr-1">Submit</button>
+                            </div>
+                     
+                        </form>
             </div>
         </div>
     </main>
